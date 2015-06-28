@@ -2,9 +2,11 @@
 	"name": "Valzebnik Web",
 	"version": "0.0.1",
 	"dependencies": {
-	"jquery": null,
-	"backbone": null,
-	"underscore": null,
-	"requirejs": null
+        "jquery": null,
+        "backbone": null,
+        "underscore": null,
+        "requirejs": null,
+        "bootstrap": null,
+        "node-mysql": "https://github.com/felixge/node-mysql.git"
 	}
 }
