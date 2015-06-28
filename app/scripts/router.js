@@ -53,11 +53,7 @@ define([
        // We have no matching route, lets display the home page 
         var homeView = new HomeView();
         homeView.render();
-    });
-
-    // Unlike the above, we don't call render on this view as it will handle
-    // the render call internally after it loads data. 
-    var footerView = new FooterView();
+    });    
 
     Backbone.history.start();
   };
