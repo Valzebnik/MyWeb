@@ -1,0 +1,10 @@
+{
+	"name": "Valzebnik Web",
+	"version": "0.0.1",
+	"dependencies": {
+	"jquery": null,
+	"backbone": null,
+	"underscore": null,
+	"requirejs": null
+	}
+}
