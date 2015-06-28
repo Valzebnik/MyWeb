@@ -8,6 +8,6 @@
         "requirejs": null,
         "bootstrap": null,
         "node-mysql": "https://github.com/felixge/node-mysql.git",
-        "slider": "https://github.com/jssor/slider.git"
+        "jssor-slider": null
 	}
 }
