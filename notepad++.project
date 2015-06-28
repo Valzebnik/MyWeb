@@ -1,0 +1,581 @@
+<NotepadPlus>
+    <Project name="Valzebnik Web">
+        <Folder name="app">
+            <Folder name="build">
+                <File name="app\build\app.build.js" />
+                <File name="app\build\build.bat" />
+            </Folder>
+            <Folder name="css">
+                <File name="app\css\buttons.css" />
+                <File name="app\css\main.css" />
+            </Folder>
+            <Folder name="scripts">
+                <Folder name="vendor">
+                    <Folder name="backbone">
+                        <File name="app\scripts\vendor\backbone\.bower.json" />
+                        <File name="app\scripts\vendor\backbone\backbone-min.js" />
+                        <File name="app\scripts\vendor\backbone\backbone-min.map" />
+                        <File name="app\scripts\vendor\backbone\backbone.js" />
+                        <File name="app\scripts\vendor\backbone\bower.json" />
+                        <File name="app\scripts\vendor\backbone\LICENSE" />
+                    </Folder>
+                    <Folder name="bootstrap">
+                        <Folder name="dist">
+                            <Folder name="css">
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap-theme.css" />
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap-theme.css.map" />
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap-theme.min.css" />
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap.css" />
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap.css.map" />
+                                <File name="app\scripts\vendor\bootstrap\dist\css\bootstrap.min.css" />
+                            </Folder>
+                            <Folder name="fonts">
+                                <File name="app\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+                                <File name="app\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+                                <File name="app\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+                                <File name="app\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+                                <File name="app\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+                            </Folder>
+                            <Folder name="js">
+                                <File name="app\scripts\vendor\bootstrap\dist\js\bootstrap.js" />
+                                <File name="app\scripts\vendor\bootstrap\dist\js\bootstrap.min.js" />
+                                <File name="app\scripts\vendor\bootstrap\dist\js\npm.js" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="fonts">
+                            <File name="app\scripts\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+                            <File name="app\scripts\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+                            <File name="app\scripts\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+                            <File name="app\scripts\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+                            <File name="app\scripts\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+                        </Folder>
+                        <Folder name="grunt">
+                            <File name="app\scripts\vendor\bootstrap\grunt\.jshintrc" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\bs-commonjs-generator.js" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\bs-glyphicons-data-generator.js" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\bs-lessdoc-parser.js" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\bs-raw-files-generator.js" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\configBridge.json" />
+                            <File name="app\scripts\vendor\bootstrap\grunt\sauce_browsers.yml" />
+                        </Folder>
+                        <Folder name="js">
+                            <File name="app\scripts\vendor\bootstrap\js\.jscsrc" />
+                            <File name="app\scripts\vendor\bootstrap\js\.jshintrc" />
+                            <File name="app\scripts\vendor\bootstrap\js\affix.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\alert.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\button.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\carousel.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\collapse.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\dropdown.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\modal.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\popover.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\scrollspy.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\tab.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\tooltip.js" />
+                            <File name="app\scripts\vendor\bootstrap\js\transition.js" />
+                        </Folder>
+                        <Folder name="less">
+                            <Folder name="mixins">
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\alerts.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\background-variant.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\border-radius.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\buttons.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\center-block.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\clearfix.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\forms.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\gradients.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\grid-framework.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\grid.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\hide-text.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\image.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\labels.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\list-group.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\nav-divider.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\nav-vertical-align.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\opacity.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\pagination.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\panels.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\progress-bar.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\reset-filter.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\reset-text.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\resize.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\responsive-visibility.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\size.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\tab-focus.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\table-row.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\text-emphasis.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\text-overflow.less" />
+                                <File name="app\scripts\vendor\bootstrap\less\mixins\vendor-prefixes.less" />
+                            </Folder>
+                            <File name="app\scripts\vendor\bootstrap\less\.csscomb.json" />
+                            <File name="app\scripts\vendor\bootstrap\less\.csslintrc" />
+                            <File name="app\scripts\vendor\bootstrap\less\alerts.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\badges.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\bootstrap.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\breadcrumbs.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\button-groups.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\buttons.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\carousel.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\close.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\code.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\component-animations.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\dropdowns.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\forms.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\glyphicons.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\grid.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\input-groups.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\jumbotron.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\labels.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\list-group.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\media.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\mixins.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\modals.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\navbar.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\navs.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\normalize.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\pager.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\pagination.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\panels.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\popovers.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\print.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\progress-bars.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\responsive-embed.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\responsive-utilities.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\scaffolding.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\tables.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\theme.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\thumbnails.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\tooltip.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\type.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\utilities.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\variables.less" />
+                            <File name="app\scripts\vendor\bootstrap\less\wells.less" />
+                        </Folder>
+                        <File name="app\scripts\vendor\bootstrap\.bower.json" />
+                        <File name="app\scripts\vendor\bootstrap\bower.json" />
+                        <File name="app\scripts\vendor\bootstrap\Gruntfile.js" />
+                        <File name="app\scripts\vendor\bootstrap\LICENSE" />
+                        <File name="app\scripts\vendor\bootstrap\package.js" />
+                        <File name="app\scripts\vendor\bootstrap\package.json" />
+                        <File name="app\scripts\vendor\bootstrap\README.md" />
+                    </Folder>
+                    <Folder name="jquery">
+                        <Folder name="dist">
+                            <File name="app\scripts\vendor\jquery\dist\jquery.js" />
+                            <File name="app\scripts\vendor\jquery\dist\jquery.min.js" />
+                            <File name="app\scripts\vendor\jquery\dist\jquery.min.map" />
+                        </Folder>
+                        <Folder name="src">
+                            <Folder name="ajax">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\ajax\var\nonce.js" />
+                                    <File name="app\scripts\vendor\jquery\src\ajax\var\rquery.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\ajax\jsonp.js" />
+                                <File name="app\scripts\vendor\jquery\src\ajax\load.js" />
+                                <File name="app\scripts\vendor\jquery\src\ajax\parseJSON.js" />
+                                <File name="app\scripts\vendor\jquery\src\ajax\parseXML.js" />
+                                <File name="app\scripts\vendor\jquery\src\ajax\script.js" />
+                                <File name="app\scripts\vendor\jquery\src\ajax\xhr.js" />
+                            </Folder>
+                            <Folder name="attributes">
+                                <File name="app\scripts\vendor\jquery\src\attributes\attr.js" />
+                                <File name="app\scripts\vendor\jquery\src\attributes\classes.js" />
+                                <File name="app\scripts\vendor\jquery\src\attributes\prop.js" />
+                                <File name="app\scripts\vendor\jquery\src\attributes\support.js" />
+                                <File name="app\scripts\vendor\jquery\src\attributes\val.js" />
+                            </Folder>
+                            <Folder name="core">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\core\var\rsingleTag.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\core\access.js" />
+                                <File name="app\scripts\vendor\jquery\src\core\init.js" />
+                                <File name="app\scripts\vendor\jquery\src\core\parseHTML.js" />
+                                <File name="app\scripts\vendor\jquery\src\core\ready.js" />
+                            </Folder>
+                            <Folder name="css">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\css\var\cssExpand.js" />
+                                    <File name="app\scripts\vendor\jquery\src\css\var\getStyles.js" />
+                                    <File name="app\scripts\vendor\jquery\src\css\var\isHidden.js" />
+                                    <File name="app\scripts\vendor\jquery\src\css\var\rmargin.js" />
+                                    <File name="app\scripts\vendor\jquery\src\css\var\rnumnonpx.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\css\addGetHookIf.js" />
+                                <File name="app\scripts\vendor\jquery\src\css\curCSS.js" />
+                                <File name="app\scripts\vendor\jquery\src\css\defaultDisplay.js" />
+                                <File name="app\scripts\vendor\jquery\src\css\hiddenVisibleSelectors.js" />
+                                <File name="app\scripts\vendor\jquery\src\css\support.js" />
+                                <File name="app\scripts\vendor\jquery\src\css\swap.js" />
+                            </Folder>
+                            <Folder name="data">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\data\var\data_priv.js" />
+                                    <File name="app\scripts\vendor\jquery\src\data\var\data_user.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\data\accepts.js" />
+                                <File name="app\scripts\vendor\jquery\src\data\Data.js" />
+                            </Folder>
+                            <Folder name="effects">
+                                <File name="app\scripts\vendor\jquery\src\effects\animatedSelector.js" />
+                                <File name="app\scripts\vendor\jquery\src\effects\Tween.js" />
+                            </Folder>
+                            <Folder name="event">
+                                <File name="app\scripts\vendor\jquery\src\event\ajax.js" />
+                                <File name="app\scripts\vendor\jquery\src\event\alias.js" />
+                                <File name="app\scripts\vendor\jquery\src\event\support.js" />
+                            </Folder>
+                            <Folder name="exports">
+                                <File name="app\scripts\vendor\jquery\src\exports\amd.js" />
+                                <File name="app\scripts\vendor\jquery\src\exports\global.js" />
+                            </Folder>
+                            <Folder name="manipulation">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\manipulation\var\rcheckableType.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\manipulation\support.js" />
+                                <File name="app\scripts\vendor\jquery\src\manipulation\_evalUrl.js" />
+                            </Folder>
+                            <Folder name="queue">
+                                <File name="app\scripts\vendor\jquery\src\queue\delay.js" />
+                            </Folder>
+                            <Folder name="sizzle">
+                                <Folder name="dist">
+                                    <File name="app\scripts\vendor\jquery\src\sizzle\dist\sizzle.js" />
+                                    <File name="app\scripts\vendor\jquery\src\sizzle\dist\sizzle.min.js" />
+                                    <File name="app\scripts\vendor\jquery\src\sizzle\dist\sizzle.min.map" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="traversing">
+                                <Folder name="var">
+                                    <File name="app\scripts\vendor\jquery\src\traversing\var\rneedsContext.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\jquery\src\traversing\findFilter.js" />
+                            </Folder>
+                            <Folder name="var">
+                                <File name="app\scripts\vendor\jquery\src\var\arr.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\class2type.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\concat.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\hasOwn.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\indexOf.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\pnum.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\push.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\rnotwhite.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\slice.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\strundefined.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\support.js" />
+                                <File name="app\scripts\vendor\jquery\src\var\toString.js" />
+                            </Folder>
+                            <File name="app\scripts\vendor\jquery\src\ajax.js" />
+                            <File name="app\scripts\vendor\jquery\src\attributes.js" />
+                            <File name="app\scripts\vendor\jquery\src\callbacks.js" />
+                            <File name="app\scripts\vendor\jquery\src\core.js" />
+                            <File name="app\scripts\vendor\jquery\src\css.js" />
+                            <File name="app\scripts\vendor\jquery\src\data.js" />
+                            <File name="app\scripts\vendor\jquery\src\deferred.js" />
+                            <File name="app\scripts\vendor\jquery\src\deprecated.js" />
+                            <File name="app\scripts\vendor\jquery\src\dimensions.js" />
+                            <File name="app\scripts\vendor\jquery\src\effects.js" />
+                            <File name="app\scripts\vendor\jquery\src\event.js" />
+                            <File name="app\scripts\vendor\jquery\src\intro.js" />
+                            <File name="app\scripts\vendor\jquery\src\jquery.js" />
+                            <File name="app\scripts\vendor\jquery\src\manipulation.js" />
+                            <File name="app\scripts\vendor\jquery\src\offset.js" />
+                            <File name="app\scripts\vendor\jquery\src\outro.js" />
+                            <File name="app\scripts\vendor\jquery\src\queue.js" />
+                            <File name="app\scripts\vendor\jquery\src\selector-native.js" />
+                            <File name="app\scripts\vendor\jquery\src\selector-sizzle.js" />
+                            <File name="app\scripts\vendor\jquery\src\selector.js" />
+                            <File name="app\scripts\vendor\jquery\src\serialize.js" />
+                            <File name="app\scripts\vendor\jquery\src\traversing.js" />
+                            <File name="app\scripts\vendor\jquery\src\wrap.js" />
+                        </Folder>
+                        <File name="app\scripts\vendor\jquery\.bower.json" />
+                        <File name="app\scripts\vendor\jquery\bower.json" />
+                        <File name="app\scripts\vendor\jquery\MIT-LICENSE.txt" />
+                    </Folder>
+                    <Folder name="node-mysql">
+                        <Folder name="benchmark">
+                            <File name="app\scripts\vendor\node-mysql\benchmark\analyze.js" />
+                            <File name="app\scripts\vendor\node-mysql\benchmark\parse-100k-blog-rows.js" />
+                            <File name="app\scripts\vendor\node-mysql\benchmark\select-100k-blog-rows.js" />
+                        </Folder>
+                        <Folder name="lib">
+                            <Folder name="protocol">
+                                <Folder name="constants">
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\charsets.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\client.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\errors.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\field_flags.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\server_status.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\ssl_profiles.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\constants\types.js" />
+                                </Folder>
+                                <Folder name="packets">
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ClientAuthenticationPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ComChangeUserPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ComPingPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ComQueryPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ComQuitPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ComStatisticsPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\EmptyPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\EofPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ErrorPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\Field.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\FieldPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\HandshakeInitializationPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\index.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\LocalDataFilePacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\OkPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\OldPasswordPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\ResultSetHeaderPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\RowDataPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\SSLRequestPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\StatisticsPacket.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\packets\UseOldPasswordPacket.js" />
+                                </Folder>
+                                <Folder name="sequences">
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\ChangeUser.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Handshake.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\index.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Ping.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Query.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Quit.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Sequence.js" />
+                                    <File name="app\scripts\vendor\node-mysql\lib\protocol\sequences\Statistics.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\Auth.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\PacketHeader.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\PacketWriter.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\Parser.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\Protocol.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\ResultSet.js" />
+                                <File name="app\scripts\vendor\node-mysql\lib\protocol\SqlString.js" />
+                            </Folder>
+                            <File name="app\scripts\vendor\node-mysql\lib\Connection.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\ConnectionConfig.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\Pool.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\PoolCluster.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\PoolConfig.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\PoolConnection.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\PoolNamespace.js" />
+                            <File name="app\scripts\vendor\node-mysql\lib\PoolSelector.js" />
+                        </Folder>
+                        <Folder name="test">
+                            <Folder name="fixtures">
+                                <File name="app\scripts\vendor\node-mysql\test\fixtures\data.csv" />
+                                <File name="app\scripts\vendor\node-mysql\test\fixtures\server.crt" />
+                                <File name="app\scripts\vendor\node-mysql\test\fixtures\server.key" />
+                            </Folder>
+                            <Folder name="integration">
+                                <Folder name="connection">
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-bad-credentials.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-bulk-insert.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-connection-config-flags-affected-rows.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-connection-destroy.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-connection-thread-id.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-insert-results.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-load-data-infile.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-multiple-statements-load-data-infile.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-multiple-statements-streaming.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-multiple-statements-with-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-multiple-statements.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-nested-tables-query.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-ping.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-procedure-with-multiple-selects.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-procedure-with-single-select.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-query-dates-as-strings.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-query-empty.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-query-escape-id.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-query-escaping.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-query.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-select-empty-string.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-send-and-receive-large-packets.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-send-and-receive-large-text.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-server-timeout-disconnect.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-statistics.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-timezones.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-transaction-commit.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-transaction-rollback.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-type-cast-null-fields.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-type-cast-query.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-type-casting.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\integration\connection\test-zerofill-results.js" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="unit">
+                                <Folder name="connection">
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-callback-errors-are-not-caught.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-callback-primitive-errors-are-not-caught.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-change-database-fatal-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-change-user-empty-queue.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-change-user-fatal-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-change-user.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connect-error-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connect-timeout-only.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connect-timeout.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-ssl-denied.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-ssl-ignore.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-ssl-reject.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-ssl.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-connection-thread-id.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-custom-query-format.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-custom-type-cast.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-debug-parser-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-debug.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-domains.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-double-connect.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-drain-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-end-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-enqueue-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-error-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-exception-safety.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-fatal-connect-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-fatal-network-error-going-to-all-callbacks.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-fatal-network-error-without-handlers.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-host-denied-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-implicit-connect.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-incorrect-packet-sequence.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-long-stack-traces-disabled.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-long-stack-traces-for-connection-errors.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-long-stack-traces.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-old-password.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-packet-out-of-order.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-parser-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-password.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-protocol-stray-packet.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-query-after-destroy.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-query-after-end-without-callback.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-query-after-end.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-query-timeout.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-server-unexpected-disconnect.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\connection\test-unix-domain-socket.js" />
+                                </Folder>
+                                <Folder name="pool">
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-acquire-timeout-existing.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-acquire-timeout-new.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-change-user-config.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-change-user-eject.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-bad.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-fatal-end.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-limit-no-wait.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-limit.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-release-after-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-connection-reset.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-custom-type-cast.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-destroy-connection.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-domains.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-double-release.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-end-empty.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-end-ping.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-end-queued.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-enqueue-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-escape-id.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-escape.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-get-connection.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-long-stack-traces.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-pool-connection.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-protocol-stray-packet.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-connection-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-end-after-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-events.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-stream-connection-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query-streaming-rows.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-query.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool\test-queue-limit.js" />
+                                </Folder>
+                                <Folder name="pool-cluster">
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-add-after-end.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-add-same-id.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-default-selector.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-error-remove.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-fatal-error-remove.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-no-retry.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-order-fatal.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-order.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-retry-fatal-end.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-retry.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-rr-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-connection-rr.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-end-empty.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-internals.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-pattern.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-remove-by-name.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-remove-by-pattern.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-remove-fatal-end.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-restore-events.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\pool-cluster\test-restore.js" />
+                                </Folder>
+                                <Folder name="protocol">
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\protocol\test-Parser.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\protocol\test-SqlString.js" />
+                                </Folder>
+                                <Folder name="query">
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-error-event-fatal.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-error-event.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-query-end-after-error.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-query-events.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-result-rows-enumerate.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-stream-before-queue.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-stream-emits-close.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-streaming-destroy.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-streaming-quick-pause-resume.js" />
+                                    <File name="app\scripts\vendor\node-mysql\test\unit\query\test-streaming-rows.js" />
+                                </Folder>
+                                <File name="app\scripts\vendor\node-mysql\test\unit\test-ConnectionConfig.js" />
+                                <File name="app\scripts\vendor\node-mysql\test\unit\test-PoolConfig.js" />
+                            </Folder>
+                            <File name="app\scripts\vendor\node-mysql\test\common.js" />
+                            <File name="app\scripts\vendor\node-mysql\test\FakeServer.js" />
+                            <File name="app\scripts\vendor\node-mysql\test\run-cov.js" />
+                            <File name="app\scripts\vendor\node-mysql\test\run.js" />
+                        </Folder>
+                        <Folder name="tool">
+                            <File name="app\scripts\vendor\node-mysql\tool\generate-error-constants.js" />
+                        </Folder>
+                        <File name="app\scripts\vendor\node-mysql\.bower.json" />
+                        <File name="app\scripts\vendor\node-mysql\.gitignore" />
+                        <File name="app\scripts\vendor\node-mysql\.travis.yml" />
+                        <File name="app\scripts\vendor\node-mysql\appveyor.yml" />
+                        <File name="app\scripts\vendor\node-mysql\Changes.md" />
+                        <File name="app\scripts\vendor\node-mysql\index.js" />
+                        <File name="app\scripts\vendor\node-mysql\License" />
+                        <File name="app\scripts\vendor\node-mysql\package.json" />
+                        <File name="app\scripts\vendor\node-mysql\Readme.md" />
+                    </Folder>
+                    <Folder name="requirejs">
+                        <File name="app\scripts\vendor\requirejs\.bower.json" />
+                        <File name="app\scripts\vendor\requirejs\bower.json" />
+                        <File name="app\scripts\vendor\requirejs\README.md" />
+                        <File name="app\scripts\vendor\requirejs\require.js" />
+                    </Folder>
+                    <Folder name="underscore">
+                        <File name="app\scripts\vendor\underscore\.bower.json" />
+                        <File name="app\scripts\vendor\underscore\bower.json" />
+                        <File name="app\scripts\vendor\underscore\LICENSE" />
+                        <File name="app\scripts\vendor\underscore\README.md" />
+                        <File name="app\scripts\vendor\underscore\underscore-min.js" />
+                        <File name="app\scripts\vendor\underscore\underscore-min.map" />
+                        <File name="app\scripts\vendor\underscore\underscore.js" />
+                    </Folder>
+                    <File name="app\scripts\vendor\html5shiv-printshiv.js" />
+                </Folder>
+                <Folder name="views">
+                    <File name="app\scripts\views\app.js" />
+                    <File name="app\scripts\views\router.js" />
+                </Folder>
+                <File name="app\scripts\main.js" />
+            </Folder>
+            <File name="app\index.html" />
+        </Folder>
+        <File name=".bower.json" />
+        <File name=".bowerrc" />
+        <File name=".gitignore" />
+        <File name="README.md" />
+    </Project>
+</NotepadPlus>

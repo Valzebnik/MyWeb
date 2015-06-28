@@ -1,3 +1,4 @@
+// Filename: main.js
 require.config({
 	paths: {
 		"jquery": "vendor/jquery/dist/jquery",
