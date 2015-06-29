@@ -7,7 +7,76 @@
             </Folder>
             <Folder name="css">
                 <File name="app\css\buttons.css" />
+                <File name="app\css\jssor.css" />
                 <File name="app\css\main.css" />
+                <File name="app\css\styles.css" />
+            </Folder>
+            <Folder name="img">
+                <Folder name="alila">
+                    <File name="app\img\alila\01.jpg" />
+                    <File name="app\img\alila\02.jpg" />
+                    <File name="app\img\alila\03.jpg" />
+                    <File name="app\img\alila\04.jpg" />
+                    <File name="app\img\alila\05.jpg" />
+                    <File name="app\img\alila\06.jpg" />
+                    <File name="app\img\alila\07.jpg" />
+                    <File name="app\img\alila\08.jpg" />
+                    <File name="app\img\alila\09.jpg" />
+                    <File name="app\img\alila\10.jpg" />
+                    <File name="app\img\alila\11.jpg" />
+                    <File name="app\img\alila\12.jpg" />
+                    <File name="app\img\alila\13.jpg" />
+                    <File name="app\img\alila\14.jpg" />
+                    <File name="app\img\alila\15.jpg" />
+                    <File name="app\img\alila\16.jpg" />
+                    <File name="app\img\alila\17.jpg" />
+                    <File name="app\img\alila\18.jpg" />
+                    <File name="app\img\alila\19.jpg" />
+                    <File name="app\img\alila\20.jpg" />
+                    <File name="app\img\alila\21.jpg" />
+                    <File name="app\img\alila\22.jpg" />
+                    <File name="app\img\alila\23.jpg" />
+                    <File name="app\img\alila\24.jpg" />
+                    <File name="app\img\alila\25.jpg" />
+                    <File name="app\img\alila\26.jpg" />
+                    <File name="app\img\alila\27.jpg" />
+                    <File name="app\img\alila\28.jpg" />
+                    <File name="app\img\alila\29.jpg" />
+                    <File name="app\img\alila\30.jpg" />
+                    <File name="app\img\alila\thumb-01.jpg" />
+                    <File name="app\img\alila\thumb-02.jpg" />
+                    <File name="app\img\alila\thumb-03.jpg" />
+                    <File name="app\img\alila\thumb-04.jpg" />
+                    <File name="app\img\alila\thumb-05.jpg" />
+                    <File name="app\img\alila\thumb-06.jpg" />
+                    <File name="app\img\alila\thumb-07.jpg" />
+                    <File name="app\img\alila\thumb-08.jpg" />
+                    <File name="app\img\alila\thumb-09.jpg" />
+                    <File name="app\img\alila\thumb-10.jpg" />
+                    <File name="app\img\alila\thumb-11.jpg" />
+                    <File name="app\img\alila\thumb-12.jpg" />
+                    <File name="app\img\alila\thumb-13.jpg" />
+                    <File name="app\img\alila\thumb-14.jpg" />
+                    <File name="app\img\alila\thumb-15.jpg" />
+                    <File name="app\img\alila\thumb-16.jpg" />
+                    <File name="app\img\alila\thumb-17.jpg" />
+                    <File name="app\img\alila\thumb-18.jpg" />
+                    <File name="app\img\alila\thumb-19.jpg" />
+                    <File name="app\img\alila\thumb-20.jpg" />
+                    <File name="app\img\alila\thumb-21.jpg" />
+                    <File name="app\img\alila\thumb-22.jpg" />
+                    <File name="app\img\alila\thumb-23.jpg" />
+                    <File name="app\img\alila\thumb-24.jpg" />
+                    <File name="app\img\alila\thumb-25.jpg" />
+                    <File name="app\img\alila\thumb-26.jpg" />
+                    <File name="app\img\alila\thumb-27.jpg" />
+                    <File name="app\img\alila\thumb-28.jpg" />
+                    <File name="app\img\alila\thumb-29.jpg" />
+                    <File name="app\img\alila\thumb-30.jpg" />
+                </Folder>
+                <File name="app\img\a17.png" />
+                <File name="app\img\loading.gif" />
+                <File name="app\img\t01.png" />
             </Folder>
             <Folder name="scripts">
                 <Folder name="vendor">
@@ -295,6 +364,64 @@
                         <File name="app\scripts\vendor\jquery\bower.json" />
                         <File name="app\scripts\vendor\jquery\MIT-LICENSE.txt" />
                     </Folder>
+                    <Folder name="jssor-slider">
+                        <Folder name="img">
+                            <File name="app\scripts\vendor\jssor-slider\img\a01.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a02.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a03.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a04.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a06.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a07.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a08.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a09.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a10.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a11.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a12.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a13.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a14.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a15.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a16.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a17.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a18.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a19.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a20.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a21.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\a22.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b02.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b03.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b05.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b06.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b07.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b10.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b11.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b12.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b13.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b14.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b16.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b17.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b18.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b20.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\b21.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\close.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\loading.gif" />
+                            <File name="app\scripts\vendor\jssor-slider\img\loading2.gif" />
+                            <File name="app\scripts\vendor\jssor-slider\img\play.png" />
+                            <File name="app\scripts\vendor\jssor-slider\img\t01.png" />
+                        </Folder>
+                        <Folder name="js">
+                            <File name="app\scripts\vendor\jssor-slider\js\jssor.js" />
+                            <File name="app\scripts\vendor\jssor-slider\js\jssor.player.ytiframe.min.js" />
+                            <File name="app\scripts\vendor\jssor-slider\js\jssor.slider.js" />
+                            <File name="app\scripts\vendor\jssor-slider\js\jssor.slider.mini.js" />
+                        </Folder>
+                        <File name="app\scripts\vendor\jssor-slider\.bower.json" />
+                        <File name="app\scripts\vendor\jssor-slider\.gitattributes" />
+                        <File name="app\scripts\vendor\jssor-slider\.gitignore" />
+                        <File name="app\scripts\vendor\jssor-slider\bower.json" />
+                        <File name="app\scripts\vendor\jssor-slider\MIT-LICENSE.txt" />
+                        <File name="app\scripts\vendor\jssor-slider\README.md" />
+                        <File name="app\scripts\vendor\jssor-slider\readme.txt" />
+                    </Folder>
                     <Folder name="node-mysql">
                         <Folder name="benchmark">
                             <File name="app\scripts\vendor\node-mysql\benchmark\analyze.js" />
@@ -554,6 +681,14 @@
                         <File name="app\scripts\vendor\requirejs\README.md" />
                         <File name="app\scripts\vendor\requirejs\require.js" />
                     </Folder>
+                    <Folder name="text">
+                        <File name="app\scripts\vendor\text\.bower.json" />
+                        <File name="app\scripts\vendor\text\bower.json" />
+                        <File name="app\scripts\vendor\text\LICENSE" />
+                        <File name="app\scripts\vendor\text\package.json" />
+                        <File name="app\scripts\vendor\text\README.md" />
+                        <File name="app\scripts\vendor\text\text.js" />
+                    </Folder>
                     <Folder name="underscore">
                         <File name="app\scripts\vendor\underscore\.bower.json" />
                         <File name="app\scripts\vendor\underscore\bower.json" />
@@ -566,10 +701,33 @@
                     <File name="app\scripts\vendor\html5shiv-printshiv.js" />
                 </Folder>
                 <Folder name="views">
-                    <File name="app\scripts\views\app.js" />
-                    <File name="app\scripts\views\router.js" />
+                    <Folder name="contact">
+                        <File name="app\scripts\views\contact\ContactView.js" />
+                    </Folder>
+                    <Folder name="gallery">
+                        <File name="app\scripts\views\gallery\GalleryView.js" />
+                    </Folder>
+                    <Folder name="home">
+                        <File name="app\scripts\views\home\HomeView.js" />
+                    </Folder>
+                    <Folder name="videos">
+                        <File name="app\scripts\views\videos\VideosView.js" />
+                    </Folder>
                 </Folder>
+                <File name="app\scripts\app.js" />
+                <File name="app\scripts\boilerplate.js" />
                 <File name="app\scripts\main.js" />
+                <File name="app\scripts\router.js" />
+            </Folder>
+            <Folder name="templates">
+                <Folder name="contact" />
+                <Folder name="gallery">
+                    <File name="app\templates\gallery\galleryTemplate.html" />
+                </Folder>
+                <Folder name="home">
+                    <File name="app\templates\home\homeTemplate.html" />
+                </Folder>
+                <Folder name="videos" />
             </Folder>
             <File name="app\index.html" />
         </Folder>
