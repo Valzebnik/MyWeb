@@ -28,6 +28,7 @@ define([
     app_router.on('route:showGallery', function(){
    
         var galleryView = new GalleryView();
+        galleryView.render();
     });
 
     app_router.on('route:showVideos', function () {
