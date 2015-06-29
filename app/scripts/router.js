@@ -5,15 +5,13 @@ define([
   'backbone',
   'views/home/HomeView',
   'views/gallery/GalleryView',
-  'views/videos/VideosView',
   'views/contact/ContactView'
-], function($, _, Backbone, HomeView, GalleryView, VideosView, ContactView) {
+], function($, _, Backbone, HomeView, GalleryView, ContactView) {
   
   var AppRouter = Backbone.Router.extend({
     routes: {
       // Define some URL routes
       'gallery': 'showGallery',
-      'videos': 'showVideos',
       'contact': 'showContact',
       
       // Default
@@ -29,11 +27,6 @@ define([
    
         var galleryView = new GalleryView();
         galleryView.render();
-    });
-
-    app_router.on('route:showVideos', function () {
-     
-        var videosView = new VideosView();
     });
     
     app_router.on('route:showContact', function () {

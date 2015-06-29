@@ -11,7 +11,6 @@ define([
         render: function() {
             $('.menu li').removeClass('active');
             $('.menu li a[href="'+window.location.hash+'"]').parent().addClass('active');
-            console.log($('.menu li a[href="'+window.location.hash+'"]'));
             this.$el.html(galleryTemplate);
 
             require([
