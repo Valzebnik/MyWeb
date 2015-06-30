@@ -89,6 +89,11 @@ textarea:focus {
     margin-left: 10px;
     color: #999999;
 }
+
+.help-inline {
+    color: #999999;
+    font-weight: bold;
+}
 /* ===========================
    ====== Submit Button ====== 
    =========================== */
