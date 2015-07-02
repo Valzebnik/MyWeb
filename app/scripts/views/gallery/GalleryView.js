@@ -2,7 +2,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'text!templates/gallery/galleryTemplate.html',
+  'text!templates/gallery/galleryTemplate.php',
 ], function($, _, Backbone, galleryTemplate) {
 
     var GalleryView = Backbone.View.extend({

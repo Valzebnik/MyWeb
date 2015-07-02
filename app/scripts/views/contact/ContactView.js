@@ -3,7 +3,7 @@ define([
     'underscore',
     'backbone',
     'model/ContactModel',
-    'text!templates/contact/contactTemplate.html',
+    'text!templates/contact/contactTemplate.php',
 ], function($, _, Backbone, ContactModel, contactTemplate) {
 
     var ContactView = Backbone.View.extend({
